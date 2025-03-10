@@ -1,0 +1,15 @@
+
+public class pro8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       String str = "learning";
+       String output="";
+       for (int i=str.length()-1;i>=0;i--) {
+    	   char c = str.charAt(i);
+    	   output+=Character.toUpperCase(c);
+       }
+       System.out.println(output);
+	}
+
+}
