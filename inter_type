@@ -1,0 +1,94 @@
+public class ass10 {
+	public static void main(String[] args) {
+		int num = 11;
+		String display=null;
+		  if (num%3 ==0 && num%5==0){
+			   display = "Zoom";
+		   }
+		  else if (num%3==0) {
+			   display = "Zip";
+		   }
+		   
+		   else if (num%5==0) {
+			   display = "Zap";
+		   }
+		  
+		   else {
+			   display = "Invalid ";
+		   }
+		   System.out.println(display);
+	}
+   
+}
+
+
+
+public class Ass11 {
+public static void main(String[] args) {
+	int a = 1;
+	int b = 4;
+	int c = 6;
+	int discriminant = b*b-4*a*c;
+	int x =0;
+	int y = 0;
+	if (discriminant==0) {
+		x = (-b+discriminant)/2*a;
+		System.out.println("the root is "+(double)x);
+	}
+	if (discriminant>0) {
+		x = (-b+discriminant)/2*a;
+		y = x = (-b-discriminant)/2*a;
+		System.out.println("the root is "+(double) (x));
+		System.out.println("the root is "+(double)y);
+	
+	}
+	if(discriminant<0) {
+		System.out.println("no real root");
+	}
+	
+}
+}
+
+
+
+class Mohan{
+	public static void main(String[] args) {
+		int n1s = 1;
+		int n5s = 4;
+		int purseAmount = 22;
+		int a= 0;
+		int val=n5s*5;
+		if (purseAmount<=val+n1s) {// 21<=22
+			if (purseAmount>=val ) {//21>=20
+				System.out.println("$5 notes avail "+ n5s);
+			}
+			System.out.println("$1 notes avail "+ (purseAmount-val));
+			
+		}
+		else {
+			System.out.println(-1);
+		}
+		
+
+	
+	}
+}
+
+
+
+public class multi {
+public static void main(String[] args) {
+	int num =8;
+	int tem=1;
+	System.out.println(tem);
+	for (int n=1;n<=num-1;n++) {
+		tem*=2;
+		System.out.println(tem);
+	}
+}
+}
+
+
+
+
+
