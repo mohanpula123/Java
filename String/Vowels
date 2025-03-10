@@ -1,0 +1,24 @@
+
+public class Pro1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Mysore";
+		String vowels = "AEIOUaeiou";
+		String temp="";
+		String temp2="";
+		for (int i=0;i<str.length();i++) {
+			char c = str.charAt(i);
+			if (vowels.contains(str.valueOf(c))) {
+				temp2+=c;
+			}
+			else {
+				temp+=c;
+			}
+		}
+		System.out.println("Vowel are >"+temp2);
+		System.out.println("Non Vowels are>" + temp);
+
+	}
+
+}
