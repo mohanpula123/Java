@@ -1,0 +1,29 @@
+
+public class Palindrome {
+	boolean isPalindrome(String str) {
+		String rev ="";
+		for (int i=str.length()-1;i>=0;i--) {
+			rev+=str.charAt(i);
+		}
+		if (str.equals(rev)) {
+			return true;
+		}
+		return false;
+	}
+	void display(String str) {
+		if (isPalindrome(str)) {
+			System.out.println("Yes Palindrome");
+		}
+		else {
+			System.out.println("not a Palindrome");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Palindrome p = new Palindrome();
+		p.display("ava");
+
+	}
+
+}
