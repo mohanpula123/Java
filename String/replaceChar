@@ -1,0 +1,11 @@
+
+public class pro7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     String str = "Karnakata";
+     String output = str.replaceAll("a", "@");
+     System.out.println(output);
+	}
+
+}
