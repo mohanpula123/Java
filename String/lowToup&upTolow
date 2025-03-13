@@ -1,0 +1,20 @@
+
+public class pro20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String inStr = "AbCdE";
+		String outStr="";
+		for (int i=0;i<inStr.length();i++) {
+			char c=inStr.charAt(i);
+			if (Character.isLowerCase(c)) {
+				outStr+=Character.toUpperCase(c);
+			}
+			else {
+				outStr+=Character.toLowerCase(c);
+			}
+		}
+		System.out.println(outStr);
+	}
+
+}
