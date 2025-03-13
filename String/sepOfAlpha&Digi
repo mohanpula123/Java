@@ -1,0 +1,22 @@
+
+public class pro23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "level123";
+		String alpha="";
+		String digits="";
+		for (int i=0;i<str.length();i++) {
+			char c=str.charAt(i);
+			if (Character.isAlphabetic(c)) {
+				alpha+=c;
+			}
+			else {
+				digits+=c;
+			}
+		}
+		System.out.println(alpha);
+		System.out.println(digits);
+	}
+
+}
