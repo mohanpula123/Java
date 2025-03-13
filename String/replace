@@ -1,0 +1,19 @@
+
+public class pro18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String[] str = {"open source","artificial inteligence","chat gpt"};
+        String result="";
+        String[] outStr=new String[str.length];
+        int counter=0;
+        for (int i=0;i<str.length;i++) {
+        	result=str[i].replace(" ", "_");
+        	outStr[counter++]=result;
+        }
+       for (String s:outStr) {
+    	   System.out.println(s);
+       }
+	}
+
+}
