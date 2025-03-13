@@ -1,0 +1,29 @@
+
+public class pro17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String[] arr = {"abc1&3","bcd451","qwe890"};//0,1,2
+        
+        for (int i=0;i<arr.length;i++) {
+        	int alcount=0;
+            int numcount=0;
+        	for (int j=0;j<arr[i].length();j++) {
+        		char c = arr[i].charAt(j);
+        		if(Character.isAlphabetic(c)) {
+        			alcount++;
+        		}
+        		if(Character.isDigit(c)) {
+        			numcount++;
+        		}
+        	}
+        	if (alcount+numcount==arr[i].length()) {
+        		System.out.println("Alphanum " + arr[i]);
+        	}
+        	else {
+        		System.out.println("Not_alphanum "+arr[i]);
+        	}
+        }
+	}
+
+}
