@@ -1,0 +1,17 @@
+
+public class pro12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String str = "mississippi";
+        String out="";
+        for (int i=0;i<str.length();i++) {
+        	char c=str.charAt(i);
+        	if (!out.contains(str.valueOf(c))) {
+        		out+=c;
+        	}
+        }
+        System.out.println(out);
+	}
+
+}
