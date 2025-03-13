@@ -1,0 +1,28 @@
+
+public class pro14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] arr = {"abc123bcd456","bbc789hjk123"};
+		for (int i=0;i<arr.length;i++) {
+				String[] str = arr[i].split("\\D+");
+				int num1=0;
+				int num2=0;
+				for (int k=0;i<str.length;k++) {
+					if(str[k]!="") {
+						num1 = Integer.parseInt(str[k]);
+						num2 = Integer.parseInt(str[k+1]);
+						break;
+					}
+					
+				}
+				System.out.println(num1+num2);
+				
+				
+				
+			}
+	}
+}
+	
+
+
