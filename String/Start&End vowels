@@ -1,0 +1,16 @@
+
+public class pro22 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str ="Abcdef";
+		String vowels = "AEIOUaeiou";
+		if (vowels.contains(str.charAt(0)+"") && vowels.contains(str.charAt(str.length()-1)+"")) {
+			System.out.println("yes start and ends with vowels");
+		}else {
+			System.out.println("NO");
+		}
+
+	}
+
+}
